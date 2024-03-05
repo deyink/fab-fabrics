@@ -33,7 +33,7 @@ function Navbar() {
     <div>
       <div className="nav-container">
       <div className="logo">
-        <img src={Logo} alt="" width={'111'} height={'60px'} />
+        <img src={Logo} alt="" width={'101'} height={'60px'} />
       </div>
 
       {/* Desktop Navbar */}
@@ -47,7 +47,7 @@ function Navbar() {
    
       </ul>
       <div className="menu">
-      <img id='menu1' onClick={showMobile}  src={menu} alt="" width={'31px'} height={'31px'} />
+      <img id='menu1' onClick={showMobile}  src={menu} alt="" width={'27px'} height={'27px'} />
       </div>
 
  

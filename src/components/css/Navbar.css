@@ -4,7 +4,7 @@
 
 }
 .nav-container{
-    height: auto;
+    height: 10vh;
     width: 100%;
     background-color: black;
     display: flex;
@@ -14,20 +14,20 @@
   
 }
 .logo{
-    margin-top: 0.5rem;
-    margin-bottom: 0.3rem;
-    margin-left: 0.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.3rem;
 }
 @media(max-width:900px){
     .logo img{
-        height: 45px;
-        width: 69px;
+        height: 50px;
+        width: 90px;
 
     }
 }
 
 ul{
-    color: hsla(0, 94%, 49%, 0.786);
+    color: hsla(0, 55%, 55%, 0.786);
     display: flex;
     gap: 2rem;
     margin-left: 30%;
@@ -46,6 +46,16 @@ ul li{
     font-weight: 600;
    
 }
+@media(max-width:900px){
+    ul li{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:450px){
+    ul li{
+        font-size: 0.7rem
+    }
+}
 /* ul li:hover{
     color: white;
     font-weight: 900;
@@ -55,9 +65,9 @@ ul li{
     color: white
 }
 .menu{
-    margin-left: 72%;
+    /* margin-left: 72%;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: auto; */
     display: none;
     
 }
@@ -70,8 +80,10 @@ ul li{
 @media(max-width:900px){
     .menu{
         display: block;
-        
-    }
+        position: absolute; 
+        right: 1rem;
+        top: 1.5rem;
+     }
 }
 
 .mobile-nav{
