@@ -7,6 +7,7 @@ import close from '../assets/close.png'
 
 function Navbar() {
   const [under, setUnder] = useState('Home');
+  
 
   const showMobile = ()=>{
     const sMobile = document.getElementById('mobile-nav') 
@@ -17,24 +18,29 @@ function Navbar() {
     const hMobile = document.getElementById('mobile-nav')
     hMobile.style.display='none'
   }
+
+
+
   
+
+ 
 
   return (
 
     <div>
       <div className="nav-container">
       <div className="logo">
-        <img src={Logo} alt="" width={'120px'} height={'60px'} />
+        <img src={Logo} alt="" width={'111'} height={'60px'} />
       </div>
 
       {/* Desktop Navbar */}
       <ul className="nav-list" id='desktop' >
-        <li onClick={()=>setUnder('Home')} >Home      {under==='Home'? <hr/> :<></> } </li>
-        <li onClick={()=>setUnder('Fabrics')} >Fabrics{under==='Fabrics'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('Blogs')} >Blogs    {under==='Blogs'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('About')} >About    {under==='About'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('Contact')} >Contact{under==='Contact'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('SignUp')} >SignUp  {under==='SignUp'? <hr/> :<></> } </li>
+        <li onClick={()=>setUnder('Home')} >Home       {under==='Home'? <hr/> :<></> }     </li>
+        <li onClick={()=>setUnder('Fabrics')} >Fabrics {under==='Fabrics'?  <hr/>:<></>}   </li>
+        <li onClick={()=>setUnder('Blogs')} >Blogs     {under==='Blogs'?  <hr/>:<></> }    </li>
+        <li onClick={()=>setUnder('About')} >About     {under==='About'?  <hr/>:<></> }    </li>
+        <li onClick={()=>setUnder('Contact')} >Contact {under==='Contact'?  <hr/>:<></> }  </li>
+        <li onClick={()=>setUnder('SignUp')} >SignUp   {under==='SignUp'? <hr/> :<></> }   </li>
    
       </ul>
       <div className="menu">
@@ -51,13 +57,13 @@ function Navbar() {
 
            {/* mobile Nav bar */}
            <div className="mobile-nav" id='mobile-nav' >
-      <ul className='m-navlist'  >
-        <li onClick={()=>setUnder('Home')} >Home      {under==='Home'? <hr/> :<></> } </li>
-        <li onClick={()=>setUnder('Fabrics')} >Fabrics{under==='Fabrics'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('Blogs')} >Blogs    {under==='Blogs'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('About')} >About    {under==='About'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('Contact')} >Contact{under==='Contact'?  <hr/>:<></> }  </li>
-        <li onClick={()=>setUnder('SignUp')} >SignUp  {under==='SignUp'? <hr/> :<></> } </li>
+      <ul className='m-navlist' id='m-navlist'  >
+        <li >Home      </li>
+        <li >Fabrics  </li>
+        <li >Blogs    </li>
+        <li >About    </li>
+        <li >Contact  </li>
+        <li >SignUp  </li>
           <li className='close' > <img onClick={hideMobile} src={close} alt="" width={'21px'} height={'21px'} />  </li>
    
       </ul>
