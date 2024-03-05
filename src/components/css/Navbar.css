@@ -1,5 +1,6 @@
 *{
     font-family: Tenor Sans;
+    overflow: hidden;
 
 }
 .nav-container{
@@ -8,6 +9,7 @@
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 
   
 }
@@ -76,7 +78,7 @@ ul li{
     background-color:black;
     display: flex;
     float: right;
-    width: 35%;
+    width: 65%;
     height: 80vh;
 
 }

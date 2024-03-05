@@ -11,12 +11,15 @@ function Navbar() {
 
   const showMobile = ()=>{
     const sMobile = document.getElementById('mobile-nav') 
-    sMobile.style.display='block'
+    sMobile.style.display='block';
+    // const hMenu = document.getElementsById('menu1')
+    // hMenu.style.display='none'
   }
 
   const hideMobile =()=>{
     const hMobile = document.getElementById('mobile-nav')
-    hMobile.style.display='none'
+    hMobile.style.display='none';
+   
   }
 
 
@@ -44,7 +47,7 @@ function Navbar() {
    
       </ul>
       <div className="menu">
-      <img onClick={showMobile} src={menu} alt="" width={'21px'} height={'21px'} />
+      <img id='menu1' onClick={showMobile}  src={menu} alt="" width={'31px'} height={'31px'} />
       </div>
 
  
