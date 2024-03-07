@@ -35,6 +35,9 @@ function Navbar() {
       <div className="logo">
         <img src={Logo} alt="" width={'101'} height={'60px'} />
       </div>
+      <div className="head-text">
+        <h3>FAB-LUXURY</h3>
+      </div>
 
       {/* Desktop Navbar */}
       <ul className="nav-list" id='desktop' >

@@ -1,6 +1,8 @@
 *{
     font-family: Tenor Sans;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 .nav-container{
@@ -9,7 +11,6 @@
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
 
   
 }
@@ -25,13 +26,30 @@
 
     }
 }
+@media(max-width:475px){
+    .logo img{
+        height: 30px;
+        width: 60px;
+
+    }
+}
+.head-text{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 0.9rem;
+    margin-left: 0.6rem;
+}
 
 ul{
-    color: hsla(0, 55%, 55%, 0.786);
+    color: hsla(0, 84%, 48%, 0.834);
     display: flex;
     gap: 2rem;
     margin-left: 30%;
     flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+   
 }
 
 @media(max-width:900px){
@@ -43,12 +61,12 @@ ul li{
     list-style: none;
     font-size: 0.9rem;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 650;
    
 }
 @media(max-width:900px){
     ul li{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 @media(max-width:450px){
@@ -88,10 +106,12 @@ ul li{
 
 .mobile-nav{
     background-color:black;
-    display: flex;
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 26px;
     width: 65%;
     height: 80vh;
+    z-index: 999;
 
 }
 .m-navlist {

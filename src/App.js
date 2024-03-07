@@ -1,3 +1,4 @@
+import Hero from './components/Hero';
 import Navbar from './components/Navrbar';
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div>
 
       <Navbar />
+      <Hero />
 
     </div>
   );
