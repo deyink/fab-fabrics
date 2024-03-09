@@ -1,4 +1,5 @@
 import About from './components/About';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navrbar';
 import Testimonial from './components/Testimonial';
@@ -13,6 +14,7 @@ function App() {
       <Whyfab />
       <About />
       <Testimonial />
+      <Footer />
 
     </div>
   );
