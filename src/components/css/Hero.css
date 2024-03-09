@@ -11,23 +11,24 @@
 
 .hero-text{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 20%;
     right: 20%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
-@media(max-width:900px){
+@media(max-width:990px){
     .hero-text{
         position: absolute;
-        top: 25%;
+        top: 17%;
         
     }
 }
 @media(max-width:475px){
     .hero-text{
         position: absolute;
-        top: 18%;
+        top: 13%;
         
     }
 }
@@ -43,24 +44,25 @@
 }
 .shop-btn{
    position: absolute;
-   top: 65%;
-   left: 46%;
-   right: 45%;
+   top: 55%;
+   left: 41%;
+   right: 41%;
    
 }
 .btn{
-    padding: 12px 32px ;
+    padding: 1rem 2rem ;
     font-size: 0.7rem;
     background-color: hsla(0, 84%, 48%, 0.834);
     color: white;
     border: none;
+    margin-top: 2rem;
 }
-@media (max-width:900px){
+@media (max-width:990px){
     .shop-btn{
         position: absolute;
-        top: 33%;
-        left: 40%;
-        right: 40%;
+        top: 23%;
+        left: 39%;
+        right: 35%;
         
      }
 
@@ -68,10 +70,8 @@
 @media (max-width:475px){
     .shop-btn{
         position: absolute;
-        top: 23%;
-        left: 31%;
-        right: 31%;
-        
+        top: 17%;
+    
      }
 
 }
