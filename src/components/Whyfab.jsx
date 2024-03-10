@@ -32,13 +32,7 @@ const Whyfab = ()=>{
 
                    
 
-                    <div className="box">
-                        
-                    <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore laudantium quia tempore voluptatum 
-                  </p>
-                    
-                    </div>
+                 
 
                 </div>
             
