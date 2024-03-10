@@ -11,11 +11,11 @@
 
 .hero-text{
     position: absolute;
-<<<<<<< HEAD
+
     top: 30%;
-=======
+
     top: 40%;
->>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
+
     left: 20%;
     right: 20%;
     display: flex;
@@ -48,15 +48,15 @@
 }
 .shop-btn{
    position: absolute;
-<<<<<<< HEAD
+
    top: 45%;
    left: 43%;
    right: 43%;
-=======
+
    top: 55%;
    left: 41%;
    right: 41%;
->>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
+
    
 }
 .btn:hover{
@@ -64,13 +64,13 @@
    transition: 0.3s ease-in-out;
 }
 .btn{
-<<<<<<< HEAD
+
     padding: 13px 55px ;
     font-size: 12px;
-=======
+
     padding: 1rem 2rem ;
     font-size: 0.7rem;
->>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
+
     background-color: hsla(0, 84%, 48%, 0.834);
     color: white;
     border: none;
@@ -79,17 +79,16 @@
 @media (max-width:990px){
     .shop-btn{
         position: absolute;
-<<<<<<< HEAD
         top: 22%;
         left: 41%;
         right: 41%;
         margin-top: 1rem ;
    
-=======
+
         top: 23%;
         left: 39%;
         right: 35%;
->>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
+
         
      }
 
@@ -98,10 +97,9 @@
     .shop-btn{
         position: absolute;
         top: 17%;
-<<<<<<< HEAD
+
         margin-top: 1rem;
-=======
->>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
+
     
      }
 

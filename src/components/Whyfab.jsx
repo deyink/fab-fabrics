@@ -29,9 +29,9 @@ const Whyfab = ()=>{
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore laudantium quia tempore voluptatum 
                   </p>
                     </div>
-<<<<<<< HEAD
+
                    
-=======
+
                     <div className="box">
                         
                     <p>
@@ -39,7 +39,7 @@ const Whyfab = ()=>{
                   </p>
                     
                     </div>
->>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
+
                 </div>
             
               
