@@ -8,13 +8,21 @@
 }
 
 .sub-container{
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 100%;
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
     height: 80%;
     border-radius: 20px;
     margin-top: 6%;
     margin-bottom: 5%;
     margin: auto;
+<<<<<<< HEAD
     background-color: yellow;
+=======
+    /* background-color: yellow; */
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
     
     
   
@@ -26,7 +34,11 @@
 .sub-container h4{
     text-align: center;
     color: black;
+<<<<<<< HEAD
     font-size: 2.2rem;
+=======
+    font-size: 2rem;
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -48,17 +60,26 @@
     /* margin-left: 15%;
     margin-right: 15%; */
     margin-bottom: 5rem;
+<<<<<<< HEAD
     background-color: #0000ff;
     margin: auto;
     margin-bottom: 5rem;
     margin-top: 2rem;
   
+=======
+    /* background-color: #0000ff;
+   */
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
     
 }
 
 .box{
     height: 160px;
+<<<<<<< HEAD
     width: 290px;
+=======
+    width: 310px;
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
     background-color: hsla(0, 68%, 35%, 0.834);
     color: white;
     padding: 1.2rem;
@@ -66,14 +87,28 @@
     margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     
+=======
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
 
    
 }
 @media(max-width:990px){
     .box{
+<<<<<<< HEAD
         width: 70%;
         
+=======
+        
+    }
+}
+
+@media(max-width:475px){
+    .box{
+        width:40% ;
+
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
     }
 }
 
@@ -81,8 +116,11 @@
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ad5c018b331965f4aae39714bb858144fbee7400
 .box p{
     padding: auto;
     font-size: 0.8rem;
