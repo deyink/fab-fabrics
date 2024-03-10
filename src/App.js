@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import Navbar from './components/Navrbar';
 import Testimonial from './components/Testimonial';
 import Whyfab from './components/Whyfab';
+import Wedo from './components/Wedo';
+
 
 function App() {
   return (
@@ -11,8 +13,12 @@ function App() {
 
       <Navbar />
       <Hero />
-      <Whyfab />
       <About />
+      <Wedo />
+      <Whyfab />
+      
+  
+      
       <Testimonial />
       <Footer />
 

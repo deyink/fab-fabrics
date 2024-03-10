@@ -107,11 +107,12 @@ ul li{
 .mobile-nav{
     background-color:black;
     position: absolute;
-    right: 0;
+    display: none;
     top: 15px;
     width: 70%;
     height: 80vh;
     z-index: 999;
+    transition: 0.75 ease-in;
 
 }
 .m-navlist {

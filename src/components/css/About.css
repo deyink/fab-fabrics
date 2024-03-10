@@ -29,7 +29,7 @@
   float: right;
 
 }
-@media(max-width:900px){
+@media(max-width:990px){
     .right-float{
         width: 95%;
         margin: auto;
@@ -54,7 +54,7 @@
     padding-right: 1rem;
  
 }
-@media(max-width:900px){
+@media(max-width:990px){
     .left-float{
         width: 95%;
         margin: auto;
