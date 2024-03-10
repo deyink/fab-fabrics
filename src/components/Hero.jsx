@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/Hero.css'
 import vid from '../assets/hero-vid.mp4'
-import vid2 from '../assets/hero_vid.mp4'
+
 
 const Hero = ()=>{
     return(

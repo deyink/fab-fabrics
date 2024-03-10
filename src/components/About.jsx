@@ -15,6 +15,7 @@ export default function About() {
                 <h3>ABOUT US</h3>
             </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil error recusandae aperiam velit voluptas sunt dignissimos provident dolorem porro aliquam, est esse id adipisci neque sed! Inventore eos omnis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugit perferendis repellendus, natus ipsum voluptate? Exercitationem recusandae accusamus, quam corrupti odio possimus nam quisquam facilis quasi unde blanditiis 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum perspiciatis rerum earum nisi modi laudantium dicta soluta totam. Culpa, amet natus. Cupiditate voluptatum natus odit sunt quaerat, consequuntur veniam.
              </p>
              
              {/* <div className="shop-btn">
