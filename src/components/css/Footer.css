@@ -11,10 +11,49 @@
     
    
 }
+.newsletter{
+    width: 100%;
+    background-color: gray;
+    padding: 2rem;
+    
+    
+   
+   
+}
+.newsletter h4{
+    text-align: center;
+    font-size: 2rem;
+}
+@media(max-width:475px){
+    .newsletter h4{
+        font-size: 1rem;
+    }
+}
+#name{
+    
+    height: 2.2rem;
+    width: 80%;
+    
+}
+#email{
+    height: 2.2rem;
+    width: 80%;
+    margin-bottom: 2rem; ;
+}
 .contact{
     width: 30%;
     color: gray ;
 
+}
+.sub-btn{
+    background-color:hsla(0, 84%, 48%, 0.834);
+    padding: 11px 21px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.sub-btn:hover{
+    background-color: black;
 }
 @media(max-width:900px){
     .contact{
@@ -22,7 +61,8 @@
     }
 }
 .contact h5{
-    color: red;
+    color: hsla(0, 68%, 35%, 0.834);
+
 }
 .sources{
     width: 30%;
@@ -31,7 +71,8 @@
 
 }
 .sources h5{
-    color: red;
+    color: hsla(0, 68%, 35%, 0.834);
+
 }
 @media(max-width:900px){
     .sources{
@@ -46,7 +87,8 @@
  
 }
 .socials h5{
-    color: red;
+    color: hsla(0, 68%, 35%, 0.834);
+
 }
 @media(max-width:900px){
     .socials{

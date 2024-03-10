@@ -9,6 +9,13 @@ export default function   Footer() {
   return (
     <div className='footer' >
         <div className="footer-container">
+          <div className="newsletter">
+            <h4>Subscribe To Our Newsletter </h4> <br /> <br />
+           
+          <p><input type="text" placeholder='Name' id='name' /></p> <br /> <br /> 
+          <p><input type="text" placeholder='Email' id='email' /> <button className='sub-btn' >Subscribe</button> </p>
+          
+          </div>
             <div className="contact">
                 <h5>CONTACT</h5> <br /> <br />
                 <address>
