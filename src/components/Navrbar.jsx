@@ -50,7 +50,7 @@ function Navbar() {
    
       </ul>
       <div className="menu">
-      <img id='menu1' onClick={showMobile}  src={menu} alt="" width={'27px'} height={'27px'} />
+      <img id='menu1' onClick={showMobile}  src={menu} alt="" width={'23px'} height={'23px'} />
       </div>
 
  

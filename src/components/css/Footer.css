@@ -15,9 +15,6 @@
     width: 100%;
     background-color: gray;
     padding: 2rem;
-    
-    
-   
    
 }
 .newsletter h4{
@@ -55,7 +52,7 @@
 .sub-btn:hover{
     background-color: black;
 }
-@media(max-width:900px){
+@media(max-width:990px){
     .contact{
         width: 90%;
     }
@@ -74,7 +71,7 @@
     color: hsla(0, 68%, 35%, 0.834);
 
 }
-@media(max-width:900px){
+@media(max-width:990px){
     .sources{
         width: 90%;
     }
@@ -82,7 +79,7 @@
 .socials{
     width: 30%;
     color: gray;
-    margin: 1rem;
+  
    
  
 }
@@ -90,7 +87,7 @@
     color: hsla(0, 68%, 35%, 0.834);
 
 }
-@media(max-width:900px){
+@media(max-width:990px){
     .socials{
         width: 90%;
     }

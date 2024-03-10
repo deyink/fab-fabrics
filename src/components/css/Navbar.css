@@ -100,7 +100,7 @@ ul li{
         display: block;
         position: absolute; 
         right: 1rem;
-        top: 1.5rem;
+        top: 1.4rem;
      }
 }
 
@@ -108,8 +108,8 @@ ul li{
     background-color:black;
     position: absolute;
     right: 0;
-    top: 26px;
-    width: 65%;
+    top: 15px;
+    width: 70%;
     height: 80vh;
     z-index: 999;
 
