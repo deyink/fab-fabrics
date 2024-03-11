@@ -18,7 +18,7 @@ function Navbar() {
 
   const hideMobile =()=>{
     const hMobile = document.getElementById('mobile-nav')
-    hMobile.style.right='-800px';
+    hMobile.style.right='-500px';
    
   }
 

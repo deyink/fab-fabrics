@@ -3,14 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+
+    
 
 }
+
+
 .nav-container{
+   
     height: 10vh;
     width: 100%;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 
   
 }
@@ -114,11 +121,13 @@ ul li{
     height: 100vh;
     z-index: 999;
     transition: 0.75 ease-out;
+    overflow: hidden;
 
 }
 .m-navlist {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 /* @media(min-width:990px){
     .mobile-nav{
@@ -127,15 +136,33 @@ ul li{
 } */
 @media(max-width:990px){
     .mobile-nav{
-        display: block;
         background-color:black;
         position: absolute;
+        display: block;
         top: 15px;
         width: 70%;
-        right: -800px;
+        right: -500px;
         height: 100vh;
         z-index: 999;
-        transition: 0.90s ease-in-out;
+        transition: 0.85s ease-in-out;
+        overflow: hidden;
+    
+
+    }
+}
+
+@media(max-width:475px){
+    .mobile-nav{
+        background-color:black;
+        position: absolute;
+        display: block;
+        top: 15px;
+        width: 70%;
+        right: -300px;
+        height: 100vh;
+        z-index: 999;
+        transition: 0.85s ease-in-out;
+        overflow: hidden;
     
 
     }
