@@ -110,22 +110,33 @@ ul li{
     display: none;
     top: 15px;
     width: 70%;
+    right: -500px;
     height: 80vh;
     z-index: 999;
-    transition: 0.75 ease-in;
+    transition: 0.75 ease-out;
 
 }
 .m-navlist {
     display: flex;
     flex-direction: column;
 }
-@media(min-width:990px){
+/* @media(min-width:990px){
     .mobile-nav{
         display: none;
     }
-}
+} */
 @media(max-width:990px){
     .mobile-nav{
-        display: none;
+        display: block;
+        background-color:black;
+        position: absolute;
+        top: 15px;
+        width: 70%;
+        right: -800px;
+        height: 80vh;
+        z-index: 999;
+        transition: 0.75s ease-out;
+    
+
     }
 }

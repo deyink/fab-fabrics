@@ -11,14 +11,14 @@ function Navbar() {
 
   const showMobile = ()=>{
     const sMobile = document.getElementById('mobile-nav') 
-    sMobile.style.display='block';
+    sMobile.style.right='0px';
     // const hMenu = document.getElementsById('menu1')
     // hMenu.style.display='none'
   }
 
   const hideMobile =()=>{
     const hMobile = document.getElementById('mobile-nav')
-    hMobile.style.display='none';
+    hMobile.style.right='-800px';
    
   }
 
