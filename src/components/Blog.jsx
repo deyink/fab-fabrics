@@ -9,70 +9,70 @@ export default function Blog() {
 
          <div className="cards">
          <div class="card">
-   <a class="card1" href="#">
+   <div className="card1">
     <p>This is heading</p>
     <p class="small">Card description with lots of great facts and interesting details.</p>
-    <div class="go-corner" href="#">
+    <div class="go-corner" >
       <div class="go-arrow">
         →
       </div>
     </div>
-  </a>
+    </div>
 </div>
 <div class="card">
-   <a class="card1" href="#">
+   <div className="card1">
     <p>This is heading</p>
     <p class="small">Card description with lots of great facts and interesting details.</p>
-    <div class="go-corner" href="#">
+    <div class="go-corner" >
       <div class="go-arrow">
         →
       </div>
     </div>
-  </a>
+    </div>
 </div>
 <div class="card">
-   <a class="card1" href="#">
+   <div className="card1">
     <p>This is heading</p>
     <p class="small">Card description with lots of great facts and interesting details.</p>
-    <div class="go-corner" href="#">
+    <div class="go-corner" >
       <div class="go-arrow">
         →
       </div>
     </div>
-  </a>
+    </div>
 </div>
 <div class="card">
-   <a class="card1" href="#">
+   <div className="card1">
     <p>This is heading</p>
     <p class="small">Card description with lots of great facts and interesting details.</p>
-    <div class="go-corner" href="#">
+    <div class="go-corner" >
       <div class="go-arrow">
         →
       </div>
     </div>
-  </a>
+    </div>
 </div>
 <div class="card">
-   <a class="card1" href="#">
+   <div className="card1">
     <p>This is heading</p>
     <p class="small">Card description with lots of great facts and interesting details.</p>
-    <div class="go-corner" href="#">
+    <div class="go-corner" >
       <div class="go-arrow">
         →
       </div>
     </div>
-  </a>
+    </div>
 </div>
 <div class="card">
-   <a class="card1" href="#">
+   <div className="card1">
     <p>This is heading</p>
     <p class="small">Card description with lots of great facts and interesting details.</p>
-    <div class="go-corner" href="#">
+    <div class="go-corner" >
       <div class="go-arrow">
         →
       </div>
     </div>
-  </a>
+    </div>
 </div>
          </div>
           
