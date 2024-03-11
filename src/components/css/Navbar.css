@@ -135,7 +135,7 @@ ul li{
         right: -800px;
         height: 100vh;
         z-index: 999;
-        transition: 0.75s ease-out;
+        transition: 0.90s ease-in-out;
     
 
     }
