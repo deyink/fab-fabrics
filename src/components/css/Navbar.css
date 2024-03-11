@@ -6,6 +6,7 @@
     overflow-x: hidden;
 
     
+    
 
 }
 
@@ -16,10 +17,14 @@
     width: 100%;
     background-color: black;
     display: flex;
-    flex-wrap: wrap;
-   
-
+    flex-wrap: wrap; 
   
+}
+@media(max-width:990px){
+    .nav-container{
+    overflow: hidden;
+    
+    }
 }
 .logo{
     margin-top: auto;
@@ -62,6 +67,7 @@ ul{
 @media(max-width:990px){
     .nav-list{
         display: none;
+        
     }
 }
 ul li{
@@ -122,18 +128,27 @@ ul li{
     z-index: 999;
     transition: 0.75 ease-out;
     
+    
+    
 
 }
 .m-navlist {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    
+    
+    
 }
 /* @media(min-width:990px){
     .mobile-nav{
         display: none;
     }
 } */
+.m-navlist li{
+    /* background-color: white; */
+    padding: 1rem;
+    width: 100%;
+}
 @media(max-width:990px){
     .mobile-nav{
         background-color:black;
@@ -141,11 +156,12 @@ ul li{
         display: block;
         top: 15px;
         width: 70%;
-        right: -500px;
+        right: -700px;
         height: 100vh;
         z-index: 999;
         transition: 0.85s ease-in-out;
-        overflow-x: hidden;
+        
+       
         
     
 
@@ -163,7 +179,7 @@ ul li{
         height: 100vh;
         z-index: 999;
         transition: 0.85s ease-in-out;
-        overflow-x: hidden;
+        
         
     
 

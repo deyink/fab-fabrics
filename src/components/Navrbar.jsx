@@ -18,7 +18,7 @@ function Navbar() {
 
   const hideMobile =()=>{
     const hMobile = document.getElementById('mobile-nav')
-    hMobile.style.right='-500px';
+    hMobile.style.right='-700px';
    
   }
 
@@ -41,7 +41,7 @@ function Navbar() {
 
       {/* Desktop Navbar */}
       <ul className="nav-list" id='desktop' >
-        <li onClick={()=>setUnder('Home')} >Home       {under==='Home'? <hr/> :<></> }     </li>
+        <li onClick={()=>setUnder('Home')} >Home       { under==='Home'? <hr/> :<></> }     </li>
         <li onClick={()=>setUnder('Fabrics')} >Fabrics {under==='Fabrics'?  <hr/>:<></>}   </li>
         <li onClick={()=>setUnder('Blogs')} >Blogs     {under==='Blogs'?  <hr/>:<></> }    </li>
         <li onClick={()=>setUnder('About')} >About     {under==='About'?  <hr/>:<></> }    </li>
