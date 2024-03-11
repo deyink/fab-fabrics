@@ -8,7 +8,7 @@
 }
 
 .sub-container{
-    width: 90%;
+    width: 85%;
     height: 80%;
     border-radius: 20px;
     margin-top: 6%;
@@ -57,8 +57,8 @@
 }
 
 .box{
-    height: 160px;
-    width: 290px;
+    height: 310px;
+    width: 400px;
     background-color: hsla(0, 68%, 35%, 0.834);
     color: white;
     padding: 1.2rem;
@@ -72,13 +72,13 @@
 }
 @media(max-width:990px){
     .box{
-        width: 80%;
+        width: 95%;
         
     }
 }
 @media(max-width:475px){
     .box{
-        width: 80%;
+        width: 95%;
         
     }
 }
