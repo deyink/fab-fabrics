@@ -5,6 +5,7 @@ import Navbar from './components/Navrbar';
 import Testimonial from './components/Testimonial';
 import Whyfab from './components/Whyfab';
 import Wedo from './components/Wedo';
+import Blog from './components/Blog';
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
       <Hero />
       <About />
       <Wedo />
+      <Blog />
       <Whyfab />
-      
+    
   
       
       <Testimonial />

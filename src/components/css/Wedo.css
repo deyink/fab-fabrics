@@ -8,9 +8,7 @@
     
     
 }
-.wedo-text{
 
-}
 .wedo-text h3{
   text-align: center;
 }
@@ -34,6 +32,11 @@
     /* background-color: blue; */
     float: left;
     
+}
+@media (max-width:475px) {
+    .wedo-text p{
+        font-size: 0.5rem;
+    }
 }
 @media(max-width:990px){
     .wedo-left-float {
