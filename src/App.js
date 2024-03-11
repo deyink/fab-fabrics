@@ -16,8 +16,9 @@ function App() {
       <Hero />
       <About />
       <Wedo />
-      <Blog />
       <Whyfab />
+        <Blog />
+     
     
   
       

@@ -10,7 +10,7 @@
     
 }
 .blog-container{
-    width: 70%;
+    width: 90%;
     height: auto;
     margin: auto;
     display: flex;
@@ -23,11 +23,12 @@
     font-size: 3rem;
     text-align: center;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .cards{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 95%;
     margin: auto;
     /* background-color: blue; */
     margin-bottom: 5rem;
@@ -35,8 +36,26 @@
 .card{
     margin: auto;
     margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 32%;
     
    
+}
+@media(max-width:990px){
+    .card{
+        
+        margin: auto;
+        width: 45%;
+    }
+
+}
+@media(max-width:475px){
+    .card{
+        width:90%;
+        margin: auto;
+    }
+
 }
 
 /* 
