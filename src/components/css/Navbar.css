@@ -17,7 +17,7 @@
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+   
 
   
 }
@@ -121,7 +121,7 @@ ul li{
     height: 100vh;
     z-index: 999;
     transition: 0.75 ease-out;
-    overflow: hidden;
+    
 
 }
 .m-navlist {
@@ -145,7 +145,8 @@ ul li{
         height: 100vh;
         z-index: 999;
         transition: 0.85s ease-in-out;
-        overflow: hidden;
+        overflow-x: hidden;
+        
     
 
     }
@@ -162,7 +163,8 @@ ul li{
         height: 100vh;
         z-index: 999;
         transition: 0.85s ease-in-out;
-        overflow: hidden;
+        overflow-x: hidden;
+        
     
 
     }
