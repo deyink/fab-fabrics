@@ -18,13 +18,6 @@ function App() {
       <About />
       <Wedo />
       <Whyfab />
-        {/* <Blog />
-      
-     <Product/>
-     */}
-  
-      
-      <Testimonial />
       <Footer />
 
     </div>
