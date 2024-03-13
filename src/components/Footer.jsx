@@ -1,15 +1,21 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './css/Footer.css'
 import phone from '../assets/phone_icon.png'
 import whatsapp from '../assets/whatsapp_icon.png'
 import instagram from '../assets/instagram_icon.png'
 import pinterest from '../assets/pinterest_icon.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 export default function   Footer() {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  }, [])
   return (
-    <div className='footer' >
+    <div className='footer' data-aos="fade-down" >
         <div className="footer-container">
-          <div className="newsletter">
+          <div className="newsletter" data-aos="fade-up" >
             <h4>Subscribe To Our Newsletter </h4> <br /> <br />
            
           <p><input type="text" placeholder='Name' id='name' /></p> <br /> <br /> 

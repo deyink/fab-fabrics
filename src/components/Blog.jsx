@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './css/Blog.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Blog() {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  }, [])
   return (
     <div className='blog' >
         <div className="blog-container">

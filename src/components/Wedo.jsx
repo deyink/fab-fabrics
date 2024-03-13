@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './css/Wedo.css'
 import wedo_img from '../assets/wedo.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Wedo() {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+
+  }, [])
   return (
-    <div className='wedo' >
+    <div className='wedo' data-aos="fade-up" >
         <div className="wedo-container">
-            <div className="wedo-left-float">
+            <div className="wedo-left-float" data-aos="fade-down" >
             <div className="wedo-text">
                 <h3>AT FAB-LUXURY FABRICS</h3> <br /> <br />
             </div>
@@ -19,7 +25,7 @@ export default function Wedo() {
 
 
             </div>
-            <div className="wedo-right-float">
+            <div className="wedo-right-float" data-aos="fade-up">
               <img src={wedo_img} alt="" width={'100%'} height={'100%'}  />
               
 

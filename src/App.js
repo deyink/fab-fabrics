@@ -9,16 +9,19 @@ import Blog from './components/Blog';
 
 
 
+
 function App() {
+
+  
   return (
     <div>
 
-      <Navbar />
-      <Hero />
-      <About />
-      <Wedo />
-      <Whyfab />
-      <Footer />
+      <Navbar   />
+      <Hero     />
+      <About    />
+      <Wedo     />
+      <Whyfab   />
+      <Footer   />
 
     </div>
   );

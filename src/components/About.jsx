@@ -1,16 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './css/About.css'
 import about_img from '../assets/about_img.webp'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function About() {
+    useEffect(()=>{
+        AOS.init({duration:2000});
+    
+      }, [])
   return (
 
-    <div className='about' >
+    <div className='about' data-aos="fade-up" >
     <div className="about-container">
-        <div className="right-float">
+        <div className="right-float" data-aos="fade-right" >
             <img className='img' src={about_img} alt="" />
         </div>
-        <div className="left-float">
+        <div className="left-float" data-aos="fade-left" > 
             <div className="about-text">
                 <h3>WHO WE ARE</h3>
             </div>
