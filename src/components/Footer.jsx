@@ -13,7 +13,7 @@ export default function   Footer() {
     AOS.init({duration:2000})
   }, [])
   return (
-    <div className='footer' data-aos="fade-down" >
+    <div className='footer'  >
         <div className="footer-container">
           <div className="newsletter" data-aos="fade-up" >
             <h4>Subscribe To Our Newsletter </h4> <br /> <br />

@@ -1,11 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './css/Navbar.css'
 import Logo from '../assets/Fab_logo.jpg'
 import menu from '../assets/menuw.png'
 import close from '../assets/close.png'
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 
 function Navbar() {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  }, [])
   const [under, setUnder] = useState('Home');
   
 
@@ -22,6 +27,11 @@ function Navbar() {
    
   }
 
+  // const hideOverlay =()=>{
+  //   const hOverlay =document.getElementById('overlay')
+  //   hOverlay.style.display='none';
+  // }
+
 
 
   
@@ -30,7 +40,9 @@ function Navbar() {
 
   return (
 
-    <div>
+    <div> 
+      
+
       <div className="nav-container">
       <div className="logo">
         <img src={Logo} alt="" width={'101'} height={'60px'} />
@@ -40,7 +52,7 @@ function Navbar() {
       </div>
 
       {/* Desktop Navbar */}
-      <ul className="nav-list" id='desktop' >
+      <ul className="nav-list" id='desktop'  >
         <li onClick={()=>setUnder('Home')} >Home       { under==='Home'? <hr/> :<></> }     </li>
         <li onClick={()=>setUnder('Fabrics')} >Fabrics {under==='Fabrics'?  <hr/>:<></>}   </li>
         <li onClick={()=>setUnder('Blogs')} >Blogs     {under==='Blogs'?  <hr/>:<></> }    </li>
@@ -62,20 +74,25 @@ function Navbar() {
       </div>
 
            {/* mobile Nav bar */}
-           <div className="mobile-nav" id='mobile-nav' >
+           {/* <label id='overlay' htmlFor="close" onClick={hideMobile}  ></label> */}
+        
+           <div className="mobile-nav" id='mobile-nav'  >
       <ul className='m-navlist' id='m-navlist'  >
-        <li >Home      </li>
-        <li >Fabrics  </li>
-        <li >Blogs    </li>
-        <li >About    </li>
-        <li >Contact  </li>
-        <li >SignUp  </li>
-          <li className='close' > <img onClick={hideMobile} src={close} alt="" width={'21px'} height={'21px'} />  </li>
+        <li onClick={hideMobile} >Home      </li>
+        <li onClick={hideMobile} >Fabrics  </li>
+        <li onClick={hideMobile} >Blogs    </li>
+        <li onClick={hideMobile} >About    </li>
+        <li onClick={hideMobile} >Contact  </li>
+        <li onClick={hideMobile} >SignUp  </li>
+          <li className='close'onClick={hideMobile} > <img src={close} alt="" width={'21px'} height={'21px'} />  </li>
    
       </ul>
       
       </div>
+      
+    
     </div>
+    
   )
 }
 

@@ -10,9 +10,9 @@ export default function Wedo() {
 
   }, [])
   return (
-    <div className='wedo' data-aos="fade-up" >
+    <div className='wedo'  >
         <div className="wedo-container">
-            <div className="wedo-left-float" data-aos="fade-down" >
+            <div className="wedo-left-float"  >
             <div className="wedo-text">
                 <h3>AT FAB-LUXURY FABRICS</h3> <br /> <br />
             </div>
@@ -25,7 +25,7 @@ export default function Wedo() {
 
 
             </div>
-            <div className="wedo-right-float" data-aos="fade-up">
+            <div className="wedo-right-float" data-aos="fade-left" >
               <img src={wedo_img} alt="" width={'100%'} height={'100%'}  />
               
 
