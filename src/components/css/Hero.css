@@ -19,7 +19,7 @@
 .hero-text{
     position: absolute;
     top: 25%;
-    left: 20%;
+    left: 10%;
     right: 20%;
     display: flex;
     flex-wrap: wrap;
@@ -39,12 +39,16 @@
         
     }
 }
+.red{
+    color: hsla(0, 84%, 48%, 0.834);
+}
+
 
 
 .hero-text p{
     color: white;
-    font-size: 3vw;
-    text-align: center;
+    font-size: 3.5vw;
+    text-align: left;
     font-weight: 500;
     display: flex;
     flex-wrap: wrap;
@@ -52,8 +56,8 @@
 .shop-btn{
    position: absolute;
 
-   top: 41%;
-   left: 43%;
+   top: 51%;
+   left: 10%;
    right: 43%;
    margin-top: 2rem;
 
@@ -66,7 +70,7 @@
 .btn{
 
     padding: 13px 55px ;
-    font-size: 12px;
+    font-size: 11px;
 
     padding: 1rem 2rem ;
     font-size: 0.7rem;
@@ -79,22 +83,34 @@
 @media (max-width:990px){
     .shop-btn{
         position: absolute;
-        top: 33%;
-        left: 40%;
+        top: 47%;
+     
         right: 21%;
         margin-top: 1rem ;
+     }
+     .btn{
+        padding: 11px 33px;
      }
 
 }
 @media (max-width:475px){
     .shop-btn{
         position: absolute;
-        top: 19%;
-        left: 30%;
+        top: 39%;
+     
         right: 30%;
         margin-top: 1rem;
 
     
      }
+     .btn{
+        padding: 9px 21px;
+
+     }
 
 }
+/* .hero-details{
+    justify-content: left;
+    align-items: start;
+    width: 10%;
+} */

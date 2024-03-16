@@ -8,7 +8,7 @@ export default function Blog() {
     AOS.init({duration:2000})
   }, [])
   return (
-    <div className='blog' >
+    <div className='blog' data-aos="fade-up" >
         <div className="blog-container">
           <h2>Our Blog</h2>     
 

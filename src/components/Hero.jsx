@@ -13,12 +13,14 @@ const Hero = ()=>{
             
             <video autoPlay loop muted id='video' src={vid}></video>
 
-            <div className="hero-text">
-                <p>WE OFFER NOT ONLY FABRICS BUT LUXURY</p>
+           <div className="hero-details">
+           <div className="hero-text">
+                <p>WE OFFER <br />  NOT ONLY FABRICS <br /> BUT LUXURY</p>
             </div>
             <div className="shop-btn">
                 <button className='btn' > SHOP NOW</button>
             </div>
+           </div>
            
 
      
