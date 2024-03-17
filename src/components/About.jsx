@@ -12,7 +12,7 @@ export default function About() {
       }, [])
   return (
 
-    <div className='about' data-aos="fade-up" >
+    <div className='about' >
     <div className="about-container">
         <div className="right-float" data-aos="fade-right" >
             <img className='img' src={about_img} alt="" />
